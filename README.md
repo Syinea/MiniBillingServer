@@ -23,3 +23,9 @@ Each URL should be handled in its own Handler, derived from `IHttpHandler`. Try 
 
 Free for everyone to do anything. Change or reuse what ever you like. You may even sell it. But that would not be fair for the buyer ...
 
+
+## Rights
+
+florian0 Coder
+
+Syinea rewrite
