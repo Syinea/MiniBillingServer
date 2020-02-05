@@ -10,6 +10,7 @@ This program is aimed for primary for developers and not for productive usage.
 * Compile
 * and run
 * Set your billing server url to the address specified in the settings (also, you may just check the console window to see the address listening on)
+* If you have Problems while Installing PM Syinea
 
 
 ## Extend
@@ -26,7 +27,7 @@ Free for everyone to do anything. Change or reuse what ever you like. You may ev
 
 ## Rights
 
-florian0 Coder
+florian0 Coder of the MiniBillingServer
 
-Syinea rewrite
+Syinea made some Updates to the MiniBillingServer
 
