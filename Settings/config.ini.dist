@@ -1,0 +1,91 @@
+###############################################
+# 	 MiniBillingServer Config by DevTekVE	  #
+###############################################
+
+###################################################################################################
+# SECTION INDEX
+#
+#    [line 15] BINDING CONFIG
+#    [line 28] DATABASE SERVER SETTINGS
+#    [line 28] DATABASE SERVER SETTINGS
+#
+###################################################################################################
+
+[BINDING]
+###################################################################################################
+# BINDING SETTINGS
+#
+#    USER
+#        Description: Address in which the system will be listening for connections from Silkroad Online Server Files.
+#        Default:     127.0.0.1
+
+Listen_Address = 127.0.0.1
+
+######
+#    Listen_Port
+#        Description: Port in which the system will be listening for connections from Silkroad Online Server Files.
+#        Default:     8080 - (listening will take place in localhost:8080 by default)
+
+Listen_Port = 8080
+
+#
+###################################################################################################
+
+[DATABASE]
+###################################################################################################
+# DATABASE SETTINGS
+#
+#    HOST
+#        Description: This is the host of the Database.
+#        Default:     127.0.0.1
+
+HOST_DB = 127.0.0.1
+
+######
+#    USER
+#        Description: Username for the login to the Database
+#        Default:     sa
+
+USER_DB = sa
+
+#######
+#    PASS
+#        Description: Password for the login to the Database
+#        Important:   PASS needs to be quoted, as the string might contain space characters.
+#        Default:     "password"
+
+PASS_DB = "password"
+
+#######
+#    ACC_DB
+#        Description: Silk (Account) database
+#        Default:     SRO_VT_ACCOUNT
+
+ACC_DB = SRO_VT_ACCOUNT
+
+#
+###################################################################################################
+
+[SECURITY]
+###################################################################################################
+# SECURITY SETTINGS
+#
+#    Allowed_Hosts
+#        Description: Allowed Hosts to have access to this system, should ONLY be accessible by trusted server hosts.
+#        Important:   Hosts are comma (,) separated.
+#        Example:     "localhost,google.com, yahoo.es"
+#        Default:     localhost
+
+Allowed_Hosts = localhost
+
+######
+#    Allowed_IPs
+#        Description: Allowed IP's to have access to this system, should ONLY be accessible by trusted server IPs.
+#        Important:   IPs are comma (,) separated.
+#        Example:     "127.0.0.1,192.168.0.1,188.132.125.20"
+#        Default:     127.0.0.1
+
+Allowed_IPs = 127.0.0.1
+
+#
+###################################################################################################
